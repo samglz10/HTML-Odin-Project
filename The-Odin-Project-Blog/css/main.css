@@ -1,0 +1,60 @@
+body {
+    margin: 20px;
+    height: max-content;
+}
+
+.blog-header {
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.odin-logo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.blog-title {
+    text-align: center;
+    
+    
+}
+.blog-content {
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    transition-timing-function: ease-in;
+}
+button:hover{
+    
+    background-color: #eecc0e; 
+    color:black;
+}
+
+.github-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkslategrey;
+}
